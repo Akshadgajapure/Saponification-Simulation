@@ -28,7 +28,14 @@ with tab1:
     st.markdown("#### Reaction (Triglyceride Saponification):")
 
     # Add scrollable image
-   st.image("reaction.png", caption="📜 *Saponification Reaction* — Triglyceride + NaOH → Glycerol + Soap (Sodium salt of fatty acid)", use_column_width=True)
+  st.markdown(
+    """
+    <div style="overflow-x: auto; white-space: nowrap;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Saponification.png/800px-Saponification.png" style="height: 220px;" />
+    </div>
+    """,
+    unsafe_allow_html=True
+)
     st.caption("📜 *Saponification Reaction* — Triglyceride + NaOH → Glycerol + Soap (Sodium salt of fatty acid)")
 
     st.markdown("""
