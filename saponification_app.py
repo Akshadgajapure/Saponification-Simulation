@@ -31,7 +31,7 @@ with tab1:
     st.markdown(
     """
     <div style="overflow-x: auto; white-space: nowrap;">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Saponification.png/800px-Saponification.png" style="height: 220px;" />
+        <img src="http://www.chem.latech.edu/~deddy/chem122m/SOAP01.gif" style="height: 220px;" />
     </div>
     """,
     unsafe_allow_html=True
