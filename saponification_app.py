@@ -27,12 +27,11 @@ with tab1:
 
     st.markdown("#### Reaction (Triglyceride Saponification):")
 
-   st.image(
-    "reaction.png",
-    caption="📜 *Saponification Reaction* — Triglyceride + NaOH → Glycerol + Soap (Sodium salt of fatty acid)",
-    use_column_width=True
-)
-
+    st.image(
+        "reaction.png",
+        caption="📜 *Saponification Reaction* — Triglyceride + NaOH → Glycerol + Soap (Sodium salt of fatty acid)",
+        use_container_width=True
+    )
 
     st.markdown("""
     This simulator allows users to visualize how different parameters affect **NaOH concentration** and **reaction kinetics** during this process.
