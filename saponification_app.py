@@ -46,7 +46,7 @@ if tab_choice == "📘 Overview":
     """)
 
     st.markdown("#### 🧪 Reaction: Triglyceride + NaOH → Glycerol + Soap")
-    st.image("http://www.chem.latech.edu/~deddy/chem122m/SOAP01.gif", caption="Saponification Mechanism", use_container_width=True)
+    st.image("reaction.png", caption="Saponification Mechanism", use_container_width=True)
 
     st.success("This app simulates how reaction parameters like temperature and concentration affect NaOH levels over time.")
 
